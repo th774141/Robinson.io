@@ -1,0 +1,92 @@
+/*  main content areas  */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header#maintitle {
+    width: 75%;
+    padding: 4% 17% 2% 8%;
+    background-color: #7b3438;
+}
+/* altered padding so that more at top than at bottom */
+
+h1 {
+    color: #ffffff;
+}
+nav {
+    width: 94%;
+    padding: 0% 3% 0% 3%;
+    background-color: #5F4728;
+}
+#content {
+    width: 45%;
+    padding: 3% 17% 3% 8%;
+    float: left;
+}
+aside#sidebar {
+    float: right;
+    padding: 3%;
+    width: 24%;
+    background-color: #B19819;
+}
+footer {
+    clear:both;
+    width: 94%;
+    padding: 3%;
+    background-color:#1b2c54;
+}
+
+/* navagation styles */
+nav ul li {
+    display: inline-block;
+    padding: 15px 1.5% 15px 1.5%;
+    background-color: #B19819;
+    margin: 0.5%;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul li a:link {
+     color: #fff;
+}
+nav ul li a:visited {
+     color: #fff;
+}
+nav ul li a:hover {
+     color: #7b3438;
+}
+nav ul li a:active {
+     color: #ff0000;
+}
+
+
+/* media screen sizes */
+@media all and (max-width : 768px) {
+    header {
+        text-align:center;
+    }
+    nav {
+        text-align: center;
+    }
+    #content {
+        width: 94%;
+        padding: 3%;
+        float:none;
+    }
+    aside#sidebar {
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        width: 94%;
+    }
+}
+
+
+
+
+
+
+
+
